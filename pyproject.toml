@@ -1,0 +1,16 @@
+[project]
+name = "local-reasoning-demo"
+version = "0.1.0"
+description = "Train a small LLM to reason step-by-step using SFT + GRPO"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "accelerate>=1.12.0",
+    "datasets>=4.4.2",
+    "numpy>=2.4.0",
+    "peft>=0.18.0",
+    "torch>=2.9.1",
+    "transformers>=4.57.3",
+    "trl>=0.26.2",
+    "wandb>=0.19.0",
+]

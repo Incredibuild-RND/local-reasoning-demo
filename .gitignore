@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Model Checkpoints (too large for GitHub)
+output/
+output_*/
+sft_final/
+reasoning_final/
+**/sft_final/
+**/reasoning_final/
+**/sft_checkpoints/
+**/grpo_checkpoints/
+*.safetensors
+*.bin
+
+# Wandb
+wandb/
+
+# UV
+uv.lock
